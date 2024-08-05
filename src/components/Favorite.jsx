@@ -23,7 +23,7 @@ const Favorite = () => {
       {/* -------------show and height data------------- */}
       {favouriteProduct.length === 0 && (
         <div className="empty-cart">
-          <h1>No data found</h1>
+          <h1>No data </h1>
         </div>
       )}
 
