@@ -3,6 +3,7 @@ import { UserContext } from "../context";
 import { toast } from "react-toastify";
 const Favorite = () => {
   const data = useContext(UserContext);
+  console.log(data)
   const { favouriteProduct, setFavouriteProduct } = data;
 
   //  -----------Remove Item---------------
