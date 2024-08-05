@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.movi_card_slider {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-slider  img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.img-slider img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:374px){
+    .movi_card_slider {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* width: 100%; */
+        align-items: center;
+        margin-left: 20px;
+    }
+    .img-slider img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

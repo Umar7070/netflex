@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.empty-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-cart h1 {
+  color: white;
+  margin-top: 150px;
+  text-transform: uppercase;
+}
+
+.movie-card-container {
+  width: 100%;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  background-color: black;
+  padding: 30px 30px;
+}
+
+.card {
+  box-shadow: 1px 1px 1px 1px white;
+  /* background-color: rgb(20, 19, 29); */
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+  display: flex;
+  gap: 25px;
+  padding: 10px 10px;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card_img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.favourite_btn {
+  border: 1px solid rgb(196, 196, 187);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.favourite_btn button {
+  color: white;
+  border-style: none;
+  color: yellow;
+}
+
+.FaHeart {
+  gap: 20px;
+  color: rgb(10, 194, 10);
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.card_content h3 {
+  cursor: pointer;
+  margin: 15px 0;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  color: white;
+  padding-bottom: 13px;
+  font-size: 12px;
+}
+
+.card_content a {
+  margin-top: 10px;
+  font-size: 15px;
+  color: skyblue;
+  margin-bottom: 30px;
+}

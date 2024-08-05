@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .logo {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  padding: 15px 40px;
+} */
+
+/* .logo h1 {
+  color: crimson;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ropa Sans", sans-serif;
+  align-items: center;
+} */
+
+.back_img {
+  background-image: url(/public/assets/movicard.webp);
+  width: 100vw;
+  height: 89vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.back_heading h1 {
+  color: white;
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.back_text p {
+  color: white;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ropa Sans", sans-serif;
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+.back_btn button {
+  padding: 0.6rem 2rem;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.back_btn button:hover {
+  background-color: rgb(202, 200, 200);
+  transform: scale(1.1);
+}
+
+.back_error-code {
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.back_error-code span {
+  font-size: 25px;
+  font-weight: 500;
+}
